@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1091682031145",
+    "firebase_url": "https://weather-today-e4fbc.firebaseio.com",
+    "project_id": "weather-today-e4fbc",
+    "storage_bucket": "weather-today-e4fbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091682031145:android:ac09269802541cc7b5ae38",
+        "android_client_info": {
+          "package_name": "com.example.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091682031145-ohjlcsku5997hup6uq18osg6422olb03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-yj4nxsPKPVpoDFRgh5YcHBqI-wdxeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091682031145-ohjlcsku5997hup6uq18osg6422olb03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
