@@ -1,0 +1,16 @@
+{
+  "signin_google": "Продолжить с  Google",
+  "signin_fb": "Продолжить с Facebook",
+  "enter_city": "Введите город",
+  "correct": "Введите правильное название",
+  "search": "Поиск",
+  "daily": "По-дневно",
+  "hourly": "По-часово",
+  "time": "Время",
+  "description": "Описание",
+  "temp": "Температура",
+  "ozone": "Озон",
+  "pressure": "Давление",
+  "wind_direction": "Направление ветра",
+  "wind_speed": "Скрость ветра"
+}

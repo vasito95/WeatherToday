@@ -1,0 +1,17 @@
+{
+  "signin_google": "Sing in with Google",
+  "signin_fb": "Sing in with Facebook",
+  "enter_city": "Enter your City",
+  "correct": "Please enter correct City",
+  "search": "Search",
+  "daily": "Daily",
+  "hourly": "Hourly",
+  "time": "Time",
+  "description": "Description",
+  "temp": "Temperature",
+  "ozone": "Ozone",
+  "pressure": "Pressure",
+  "wind_direction": "Wind direction",
+  "wind_speed": "Wind speed",
+  "wind_speed": "Wind speed"
+}

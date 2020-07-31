@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutterapp/screens/home_page.dart';
 import 'package:flutterapp/screens/login_page.dart';
+
+import 'app_localizations.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,6 +17,24 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: SplashPage(),
+      supportedLocales: [
+        Locale('en','US'),
+        Locale('ru','RU')
+      ],
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      localeResolutionCallback: (locale, supportedlocales){
+        for(var supportedLocale in supportedlocales) {
+          if(supportedLocale.countryCode == locale.countryCode
+              && supportedLocale.languageCode == locale.languageCode){
+              return supportedLocale;
+          }
+        }
+        return supportedlocales.first;
+      },
     );
   }
 }
@@ -24,8 +45,9 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 2), () =>
         Navigator.push(context, MaterialPageRoute(builder: (_) {
-          return HomePage();
-        })));
+          return Login();
+        })),
+    );
     return Scaffold(
       body: Center(
         child: Column(
